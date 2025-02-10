@@ -1,0 +1,25 @@
+# Secrets and API keys
+GoogleService-Info.plist
+Secrets.plist
+.env
+
+# Xcode files
+*.xcuserdata
+*.xcworkspace
+DerivedData/
+.DS_Store
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo

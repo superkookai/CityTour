@@ -6,17 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFD3D04B2D599DAC00E366F0 /* CityTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0482D599DAC00E366F0 /* CityTourApp.swift */; };
+		BFD3D04C2D599DAC00E366F0 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0492D599DAC00E366F0 /* PlacesView.swift */; };
+		BFD3D04D2D599DAC00E366F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD3D0452D599DAC00E366F0 /* Preview Assets.xcassets */; };
+		BFD3D04E2D599DAC00E366F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD3D0472D599DAC00E366F0 /* Assets.xcassets */; };
+		BFD3D0512D599DF600E366F0 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0502D599DF600E366F0 /* Keyword.swift */; };
+		BFD3D0532D59B0B600E366F0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BFD3D0522D59B0B600E366F0 /* .gitignore */; };
+		BFD3D0552D59B13500E366F0 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD3D0542D59B13500E366F0 /* Secrets.plist */; };
+		BFD3D0572D59B19C00E366F0 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0562D59B19C00E366F0 /* APIKeys.swift */; };
+		BFD3D0592D59B25E00E366F0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0582D59B25E00E366F0 /* APIClient.swift */; };
+		BFD3D05B2D59C74B00E366F0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D05A2D59C74B00E366F0 /* Place.swift */; };
+		BFD3D05D2D59C83E00E366F0 /* PlacesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D05C2D59C83E00E366F0 /* PlacesResponseModel.swift */; };
+		BFD3D0602D59D4F400E366F0 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D05F2D59D4F400E366F0 /* PlacesViewModel.swift */; };
+		BFD3D0622D59E0F500E366F0 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0612D59E0F500E366F0 /* ResponseType.swift */; };
+		BFD3D0642D59E7C300E366F0 /* PlacesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3D0632D59E7C300E366F0 /* PlacesError.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BFD3D0342D599DA000E366F0 /* CityTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD3D0452D599DAC00E366F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD3D0472D599DAC00E366F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD3D0482D599DAC00E366F0 /* CityTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTourApp.swift; sourceTree = "<group>"; };
+		BFD3D0492D599DAC00E366F0 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		BFD3D0502D599DF600E366F0 /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		BFD3D0522D59B0B600E366F0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BFD3D0542D59B13500E366F0 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		BFD3D0562D59B19C00E366F0 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		BFD3D0582D59B25E00E366F0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BFD3D05A2D59C74B00E366F0 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BFD3D05C2D59C83E00E366F0 /* PlacesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesResponseModel.swift; sourceTree = "<group>"; };
+		BFD3D05F2D59D4F400E366F0 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		BFD3D0612D59E0F500E366F0 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		BFD3D0632D59E7C300E366F0 /* PlacesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFD3D0362D599DA000E366F0 /* CityTour */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CityTour;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFD3D0312D599DA000E366F0 /* Frameworks */ = {
@@ -32,7 +55,8 @@
 		BFD3D02B2D599DA000E366F0 = {
 			isa = PBXGroup;
 			children = (
-				BFD3D0362D599DA000E366F0 /* CityTour */,
+				BFD3D0522D59B0B600E366F0 /* .gitignore */,
+				BFD3D04A2D599DAC00E366F0 /* CityTour */,
 				BFD3D0352D599DA000E366F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +67,58 @@
 				BFD3D0342D599DA000E366F0 /* CityTour.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD3D0462D599DAC00E366F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3D0452D599DAC00E366F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFD3D04A2D599DAC00E366F0 /* CityTour */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3D0542D59B13500E366F0 /* Secrets.plist */,
+				BFD3D0652D5A12CA00E366F0 /* API */,
+				BFD3D05E2D59D4D500E366F0 /* ViewModel */,
+				BFD3D04F2D599DDA00E366F0 /* Model */,
+				BFD3D0482D599DAC00E366F0 /* CityTourApp.swift */,
+				BFD3D0492D599DAC00E366F0 /* PlacesView.swift */,
+				BFD3D0472D599DAC00E366F0 /* Assets.xcassets */,
+				BFD3D0462D599DAC00E366F0 /* Preview Content */,
+			);
+			path = CityTour;
+			sourceTree = "<group>";
+		};
+		BFD3D04F2D599DDA00E366F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3D0502D599DF600E366F0 /* Keyword.swift */,
+				BFD3D05A2D59C74B00E366F0 /* Place.swift */,
+				BFD3D05C2D59C83E00E366F0 /* PlacesResponseModel.swift */,
+				BFD3D0612D59E0F500E366F0 /* ResponseType.swift */,
+				BFD3D0632D59E7C300E366F0 /* PlacesError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD3D05E2D59D4D500E366F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3D05F2D59D4F400E366F0 /* PlacesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFD3D0652D5A12CA00E366F0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3D0562D59B19C00E366F0 /* APIKeys.swift */,
+				BFD3D0582D59B25E00E366F0 /* APIClient.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +135,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFD3D0362D599DA000E366F0 /* CityTour */,
 			);
 			name = CityTour;
 			packageProductDependencies = (
@@ -109,6 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD3D0552D59B13500E366F0 /* Secrets.plist in Resources */,
+				BFD3D04D2D599DAC00E366F0 /* Preview Assets.xcassets in Resources */,
+				BFD3D0532D59B0B600E366F0 /* .gitignore in Resources */,
+				BFD3D04E2D599DAC00E366F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD3D04B2D599DAC00E366F0 /* CityTourApp.swift in Sources */,
+				BFD3D0512D599DF600E366F0 /* Keyword.swift in Sources */,
+				BFD3D0642D59E7C300E366F0 /* PlacesError.swift in Sources */,
+				BFD3D0622D59E0F500E366F0 /* ResponseType.swift in Sources */,
+				BFD3D0572D59B19C00E366F0 /* APIKeys.swift in Sources */,
+				BFD3D05B2D59C74B00E366F0 /* Place.swift in Sources */,
+				BFD3D0602D59D4F400E366F0 /* PlacesViewModel.swift in Sources */,
+				BFD3D05D2D59C83E00E366F0 /* PlacesResponseModel.swift in Sources */,
+				BFD3D0592D59B25E00E366F0 /* APIClient.swift in Sources */,
+				BFD3D04C2D599DAC00E366F0 /* PlacesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +342,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CityTour need to use your location while using the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +372,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CityTour need to use your location while using the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
